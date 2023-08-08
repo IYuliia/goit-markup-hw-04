@@ -101,6 +101,24 @@ img {
   content: " ";
 }
 
+.social-media-list {
+  display: flex;
+}
+
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+.social-media-icon {
+  fill: var(--cloud-secondary-color);
+}
+
 /* HEADER */
 .page-header {
   padding: 24px 0;
@@ -285,6 +303,8 @@ img {
 .team-info {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   text-align: center;
   background-color: var(--white);
 }
@@ -301,6 +321,53 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.team-social-media-item {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+
+/* .team-social-media-item:not(:last-child) {
+  margin-right: 24px;
+} */
+
+.team-social-media-link:hover,
+.team-social-media-link:focus {
+  background-color: var(--hover-accent-color);
+}
+
+/* CUSTOMERS */
+
+.customers-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+}
+
+.customer-icon {
+  fill: #8e8f99;
+}
+
+.customer-list-item:hover,
+.customers-list-item:focus {
+  border: 1px solid var(--hover-accent-color);
+}
+
+.customer-list-item:hover .customer-icon,
+.customers-list-item:focus .customer-icon {
+  fill: var(--hover-accent-color);
 }
 
 /* FOOTER */
@@ -345,29 +412,14 @@ img {
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
-.social-media-list {
-  display: flex;
-}
-.social-media-item:not(:last-child) {
+
+.footer-social-media-item:not(:last-child) {
   margin-right: 16px;
 }
-.social-media-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--accent-color);
-}
 
-.social-media-link:hover,
-.social-media-link:focus {
+.footer-social-media-link:hover,
+.footer-social-media-link:focus {
   background-color: #31d0aa;
-}
-
-.social-media-icon {
-  fill: var(--cloud-secondary-color);
 }
 
 /* PORTFOLIO PAGE 
