@@ -99,6 +99,9 @@ img {
   border-radius: 2px;
   background-color: var(--accent-color);
   content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .social-media-list {
@@ -158,6 +161,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--navyblue-background-color);
+  position: relative;
 }
 
 .menu-link:hover,
