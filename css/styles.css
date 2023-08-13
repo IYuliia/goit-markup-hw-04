@@ -156,8 +156,7 @@ img {
 }
 
 .menu-link:hover,
-.menu-link:focus,
-.menu-link:active {
+.menu-link:focus {
   color: var(--hover-accent-color);
 }
 
@@ -197,8 +196,7 @@ img {
 }
 
 .address-link:hover,
-.address-link:focus,
-.address-link:active {
+.address-link:focus {
   color: var(--hover-accent-color);
 }
 
@@ -248,8 +246,7 @@ img {
 }
 
 .hero-button:hover,
-.hero-button:focus,
-.hero-button:active {
+.hero-button:focus {
   background-color: var(--hover-accent-color);
 }
 
@@ -365,8 +362,7 @@ img {
 }
 
 .team-social-media-link:hover,
-.team-social-media-link:focus,
-.team-social-media-link:active {
+.team-social-media-link:focus {
   background-color: var(--hover-accent-color);
 }
 
@@ -401,8 +397,7 @@ img {
 }
 
 .customer-list-link:hover,
-.customers-list-link:focus,
-.customers-list-link:active {
+.customers-list-link:focus {
   border: 1px solid var(--hover-accent-color);
   color: var(--hover-accent-color);
 }
@@ -464,8 +459,7 @@ img {
 }
 
 .footer-social-media-link:hover,
-.footer-social-media-link:focus,
-.footer-social-media-link:active {
+.footer-social-media-link:focus {
   background-color: #31d0aa;
 }
 
@@ -503,8 +497,7 @@ FILTER */
 }
 
 .filter-nav-button:hover,
-.filter-nav-button:focus,
-.filter-nav-button:active {
+.filter-nav-button:focus {
   color: var(--white);
   background-color: var(--hover-accent-color);
   border: 1px solid transparent;
@@ -531,8 +524,7 @@ FILTER */
 }
 
 .filter-card-link:hover,
-.filter-card-link:focus,
-.filter-card-link:active {
+.filter-card-link:focus {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -561,8 +553,7 @@ FILTER */
 }
 
 .filter-card-item:hover .overlay-text,
-.filter-card-item:focus .overlay-text,
-.filter-card-item:active .overlay-text {
+.filter-card-item:focus .overlay-text {
   transform: translateY(0%);
 }
 
@@ -640,8 +631,7 @@ FILTER */
 }
 
 .close-btn:hover,
-.close-btn:focus,
-.close-btn:active {
+.close-btn:focus {
   background-color: var(--hover-accent-color);
   border: none;
   fill: #ffffff;
